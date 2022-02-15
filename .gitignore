@@ -39,3 +39,6 @@ dist-ssr
 # Editor directories
 .vscode/*
 !.vscode/extensions.json
+
+# Storybook
+storybook-static

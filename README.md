@@ -2,6 +2,8 @@
 
 Search component based on the autocomplete of MUI
 
+## [Live storybook](https://cranky-hermann-d1f0dc.netlify.app)
+
 ## Start on local env
 
 Intall dependencies:
