@@ -1,0 +1,85 @@
+{
+  "name": "movie-search",
+  "version": "1.0.0",
+  "description": "Search component based on the autocomplete of MUI",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/movie-search.umd.js",
+  "module": "./dist/movie-search.es.js",
+  "typings": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/movie-search.es.js",
+      "require": "./dist/movie-search.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "start-storybook -p 6006",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "build-storybook": "build-storybook",
+    "lint": "eslint '**/*.{ts,tsx}'",
+    "format": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|css)\" --ignore-path .gitignore"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.4.1",
+    "@mui/material": "^5.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@storybook/addon-actions": "^6.4.18",
+    "@storybook/addon-essentials": "^6.4.18",
+    "@storybook/addon-links": "^6.4.18",
+    "@storybook/react": "^6.4.18",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/node": "^17.0.17",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
+    "@vitejs/plugin-react": "^1.0.7",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-testing-library": "^5.0.5",
+    "jsdom": "^19.0.0",
+    "prettier": "^2.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vitest": "^0.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taki9/movie-search.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "library",
+    "vite",
+    "mui",
+    "search"
+  ],
+  "author": "Zoltan Takacs",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/taki9/movie-search/issues"
+  },
+  "homepage": "https://github.com/taki9/movie-search#readme"
+}
